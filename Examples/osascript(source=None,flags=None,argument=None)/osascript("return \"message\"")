@@ -1,0 +1,9 @@
+#!/usr/bin/env python
+from osascript import *
+
+def main():
+    returncode,stdout,stderr = osascript("return \"message\"")
+    print(stdout)
+
+if __name__=="__main__":
+    main()

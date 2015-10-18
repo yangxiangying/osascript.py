@@ -1,0 +1,17 @@
+#!/usr/bin/env python
+from unittest import main, skip, TestCase
+from assert_is import *
+from osascript import sudo
+
+class Test(TestCase):
+    @skip("")
+    def test_sudo(self):
+        eq_(sudo("echo '1'").strip(),"1")
+
+    @skip("")
+    @raises(Exception)
+    def test_sudo_exception(self):
+        sudo("sudo")
+
+if __name__ == "__main__":
+    main()

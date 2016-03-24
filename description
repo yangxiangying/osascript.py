@@ -1,1 +1,1 @@
-osascript(applescript=None, flags=None) function - osascript (AppleScript) python implementation (OS X)
+osascript(applescript, flags=None) function - osascript (AppleScript) python implementation (OS X)

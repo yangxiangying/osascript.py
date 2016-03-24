@@ -1,4 +1,4 @@
-**osascript(applescript=None, flags=None)** function
+**osascript(applescript, flags=None)** function
 
 .. code-block:: python
 

@@ -15,7 +15,7 @@ from write import *
 
 @osx_only
 @public
-def osascript(applescript=None, flags=None):
+def osascript(applescript, flags=None):
     """osascript applescript code or file
     """
     args = ["osascript"]

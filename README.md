@@ -1,5 +1,5 @@
 <p align="center">
-	<b>osascript(applescript=None, flags=None) function - osascript (AppleScript) python implementation (OS X)</b>
+	<b>osascript(applescript, flags=None) function - osascript (AppleScript) python implementation (OS X)</b>
 </p>
 
 [![Build Status](https://travis-ci.org/russianidiot/osascript.py.svg?branch=master)](https://travis-ci.org/russianidiot/osascript.py)[![PyPI](https://img.shields.io/pypi/v/osascript.svg)](https://pypi.python.org/pypi/osascript)
@@ -24,7 +24,7 @@
 
 ### Usage
 
-**osascript(applescript=None, flags=None)** function
+**osascript(applescript, flags=None)** function
 
 ```python
 from osascript import *

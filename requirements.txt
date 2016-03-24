@@ -1,7 +1,6 @@
 fullpath
 osascript
 osx_only
-platform
 public
 rm
 setuptools

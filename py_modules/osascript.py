@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-from os import *
 from os.path import *
+from platform import system
 from subprocess import *
 from fullpath import *
 from osx_only import *

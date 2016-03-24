@@ -39,12 +39,14 @@ def osascript(source=None, flags=None):
 
 
 if __name__ == "__main__":
-    # test stdout
-    returncode, stdout, stderr = osascript('return "message"')
-    print(stdout)
-    # test stderr
-    returncode, stdout, stderr = osascript("log 1")  # log 2 stderr
-    print(stderr)
-    # test returncode
-    returncode, stdout, stderr = osascript("ERROR")
-    print(returncode, stderr)
+    # Darwin/Linux/Windows,Java
+    if system() == "Darwin":
+        # test stdout
+        returncode, stdout, stderr = osascript('return "message"')
+        print(stdout)
+        # test stderr
+        returncode, stdout, stderr = osascript("log 1")  # log 2 stderr
+        print(stderr)
+        # test returncode
+        returncode, stdout, stderr = osascript("ERROR")
+        print(returncode, stderr)

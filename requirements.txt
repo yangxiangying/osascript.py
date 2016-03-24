@@ -1,5 +1,4 @@
 fullpath
-osascript
 osx_only
 public
 rm

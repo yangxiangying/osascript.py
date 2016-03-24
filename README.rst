@@ -35,12 +35,12 @@ Usage
 
 	from osascript import *
 
-	returncode,stdout,stderr = osascript('return "message"')
+	>>> returncode,stdout,stderr = osascript('display dialog "42"')
 
 Links
 ~~~~~
 
-*	osascript(1) Mac OS X Manual Page	- `https://developer.apple.com/library/mac/documentation/Darwin/Reference/ManPages/man1/osascript.1.html <https://developer.apple.com/library/mac/documentation/Darwin/Reference/ManPages/man1/osascript.1.html>`_
+*	osascript(1) Mac OS X Manual Page	- `developer.apple.com/library/mac/documentation/Darwin/Reference/ManPages/man1/osascript.1.html <https://developer.apple.com/library/mac/documentation/Darwin/Reference/ManPages/man1/osascript.1.html>`_
 
 ----
 

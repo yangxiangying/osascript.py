@@ -1,5 +1,5 @@
 ```python
 from osascript import *
 
-returncode,stdout,stderr = osascript('return "message"')
+>>> returncode,stdout,stderr = osascript('display dialog "42"')
 ```

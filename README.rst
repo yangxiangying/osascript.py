@@ -1,15 +1,25 @@
+.. image:: https://img.shields.io/pypi/v/osascript.svg
+   :target: https://pypi.python.org/pypi/osascript
+
+.. image:: https://img.shields.io/pypi/pyversions/osascript.svg
+   :target: https://pypi.python.org/pypi/osascript
+
+.. image:: https://img.shields.io/pypi/dm/osascript.svg
+   :target: https://pypi.python.org/pypi/osascript
+
 	
+
 Install
-'''''''
+~~~~~~~
 
 github.com_: :code:`pip install git+git://github.com/russianidiot/osascript.py.git`
 
 pypi.python.org_: :code:`pip install osascript`
 
-download_: :code:`python setup.py install` or :code:`setup/.setup.py develop.command`
+download_: :code:`[ -e requirements.txt ] && pip install -r requirements.txt; python setup.py install`
 
 .. _github.com: http://github.com/russianidiot/osascript.py
-.. _pypi.python.org: https://pypi.python.org/pypi/osascript
+.. _pypi.python.org: https://pypi.python.org/pypi/osascript.py
 .. _download: https://github.com/russianidiot/osascript.py/archive/master.zip
 
 	
@@ -18,18 +28,35 @@ download_: :code:`python setup.py install` or :code:`setup/.setup.py develop.com
 
 	
 
-Usage 
-'''''
-.. code-block::
+Usage
+~~~~~
+
+.. code-block:: python
 
 	from osascript import *
 
 	returncode,stdout,stderr = osascript('return "message"')
 
-------------
+Links
+~~~~~
 
-**Tested**: python 2.6, 2.7, 3+
+*	osascript(1) Mac OS X Manual Page	- `https://developer.apple.com/library/mac/documentation/Darwin/Reference/ManPages/man1/osascript.1.html <https://developer.apple.com/library/mac/documentation/Darwin/Reference/ManPages/man1/osascript.1.html>`_
 
-**Bug Tracker**: `github.com/russianidiot/osascript.py/issues`__
+----
 
-__ https://github.com/russianidiot/osascript.py/issues
+Feedback
+~~~~~~~~
+
+|github_issues| - Github Issues
+
+.. |github_issues| image:: https://img.shields.io/github/issues/russianidiot/osascript.py.svg
+	:target: https://github.com/russianidiot/osascript.py/issues
+
+|gitter| - **Chat** with me (english/russian) 
+
+.. |gitter| image:: https://badges.gitter.im/russianidiot/osascript.py.svg
+	:target: https://gitter.im/russianidiot/osascript.py
+
+`russianidiot.github.io/python/`_  - my Python packages
+
+.. _russianidiot.github.io/python/: http://russianidiot.github.io/python/

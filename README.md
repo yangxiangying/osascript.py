@@ -2,74 +2,63 @@
 	<b>osascript(1) (AppleScript) python implementation (OS X)</b>
 </p>
 
-<p>
-	<a href="https://travis-ci.org/russianidiot/osascript.py" class="reference external">
-		<img src="https://travis-ci.org/russianidiot/osascript.py.svg?branch=master" alt="Build Status">
-	</a>
-	<!--
-	<a href="https://codecov.io/github/russianidiot/osascript.py/">
-		<img src="https://img.shields.io/codecov/c/github/russianidiot/osascript.py.svg" alt="Codecov">
-	</a>
-	-->
-</p>
-<p>
-	<a href="http://badge.fury.io/py/osascript" class="reference external">
-		<img src="https://badge.fury.io/py/osascript.svg" alt="PyPI version">
-	</a>
-	<a href="https://pypi.python.org/pypi/osascript">
-		<img src="https://img.shields.io/pypi/pyversions/osascript.svg" alt="PyPI">
-	</a>
-
-</p>
+[![Build Status](https://travis-ci.org/russianidiot/osascript.py.svg?branch=master)](https://travis-ci.org/russianidiot/osascript.py)[![PyPI](https://img.shields.io/pypi/v/osascript.svg)](https://pypi.python.org/pypi/osascript)
+[![PyPI](https://img.shields.io/pypi/pyversions/osascript.svg)](https://pypi.python.org/pypi/osascript)[![PyPI](https://img.shields.io/pypi/dm/osascript.svg)](https://pypi.python.org/pypi/osascript)[![PyPI](https://img.shields.io/pypi/dw/osascript.svg)](https://pypi.python.org/pypi/osascript)[![PyPI](https://img.shields.io/pypi/dd/osascript.svg)](https://pypi.python.org/pypi/osascript)
 
 	
-Install
--------
+
+### Install
 
 [github.com](http://github.com/russianidiot/osascript.py):
 `pip install git+git://github.com/russianidiot/osascript.py.git`
 
-[pypi.python.org](https://pypi.python.org): `pip install osascript`
+[pypi.python.org](https://pypi.python.org/pypi/osascript/): `pip install osascript`
 
-[download](https://github.com/russianidiot/osascript.py/archive/master.zip): `python setup.py install` or `setup/.setup.py develop.command` 
+[download](https://github.com/russianidiot/osascript.py/archive/master.zip): `[ -e requirements.txt ] && pip install -r requirements.txt; python setup.py install`
+
+	
 
 	
 
 	
 
-Usage 
-=====
-```
+### Usage
+
+```python
 from osascript import *
 
 returncode,stdout,stderr = osascript('return "message"')
 ```
 
----
+### Links
 
-**Tested**: python 2.6, 2.7, 3+
+*	osascript(1) Mac OS X Manual Page - [https://developer.apple.com/library/mac/documentation/Darwin/Reference/ManPages/man1/osascript.1.html](https://developer.apple.com/library/mac/documentation/Darwin/Reference/ManPages/man1/osascript.1.html)
 
----
+* * *
+
+### Feedback
+
+[![GitHub issues](https://img.shields.io/github/issues/russianidiot/osascript.py.svg)](https://github.com/russianidiot/osascript.py/issues) - Github Issues
+
+[![Join the chat at https://gitter.im/russianidiot/osascript.py](https://badges.gitter.im/russianidiot/osascript.py.svg)](https://gitter.im/russianidiot/osascript.py) - **Chat** with me (english/russian) 
+
+* * *
 
 <p align="center">
-my Python packages 
-<a href="http://russianidiot.github.io/python/packages">russianidiot.github.io/python/packages</a> <img src="http://russianidiot.github.io/images/python/16.png" />
-</p>
-<p align="center">
-my Python repos <a href="http://russianidiot.github.io/python/">russianidiot.github.io/python/</a>
+my Python packages <a href="http://russianidiot.github.io/python/">russianidiot.github.io/python/</a>
 <img src="http://russianidiot.github.io/images/python/16.png" />
 </p>
 
 <p align="center">
-	all repos <a href="http://russianidiot.github.io/">russianidiot.github.io</a> <img src="http://russianidiot.github.io/images/star/16.png" />
-</p>
-
-<p align="center">
-	README.md generated with <a href="https://github.com/russianidiot/README.mako.py.automation">README.mako.py.automation</a> + <a href="https://github.com/russianidiot/.README.mako">.README.mako</a> 
-<img src="http://russianidiot.github.io/images/book/16.png">
+	all my repos <a href="http://russianidiot.github.io/">russianidiot.github.io</a> <img src="http://russianidiot.github.io/images/star/16.png" />
 </p>
 
 <p align="center">
 	follow me <a href="http://github.com/russianidiot">github.com/russianidiot</a>
 <img src="http://russianidiot.github.io/images/github/16.png" />
+</p>
+
+<p align="center">
+	README.md generated with <a href="https://github.com/russianidiot-dotfiles/.README">.README</a> (python+mako, sh)
+<img src="http://russianidiot.github.io/images/book/16.png">
 </p>

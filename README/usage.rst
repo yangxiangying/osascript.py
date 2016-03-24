@@ -1,3 +1,5 @@
+**osascript(applescript=None, flags=None)** function
+
 .. code-block:: python
 
 	from osascript import *

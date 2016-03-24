@@ -15,18 +15,18 @@ from write import *
 
 @osx_only
 @public
-def osascript(source=None, flags=None):
+def osascript(applescript=None, flags=None):
     """osascript applescript code or file
     """
     args = ["osascript"]
-    if source and isinstance(source, list):
-        source = "\n".join(source)
+    if applescript and isinstance(applescript, list):
+        applescript = "\n".join(applescript)
     temp = programfile = None
-    if source and exists(source) or exists(source):
-        programfile = source
+    if applescript and exists(applescript) or exists(applescript):
+        programfile = applescript
     else:
         temp = programfile = tempfile()
-        write(temp, source)
+        write(temp, applescript)
     try:
         if flags:
             args += ["-s", flags]

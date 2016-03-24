@@ -1,3 +1,5 @@
+**osascript(applescript=None, flags=None)** function
+
 ```python
 from osascript import *
 

@@ -31,6 +31,8 @@ download_: :code:`[ -e requirements.txt ] && pip install -r requirements.txt; py
 Usage
 ~~~~~
 
+**osascript(applescript=None, flags=None)** function
+
 .. code-block:: python
 
 	from osascript import *

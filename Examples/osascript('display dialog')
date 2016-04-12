@@ -3,5 +3,5 @@ from platform import system
 from osascript import *
 
 # Darwin/Linux/Windows,Java
-if system() != "Darwin":
+if system() == "Darwin":
     osascript('display dialog')

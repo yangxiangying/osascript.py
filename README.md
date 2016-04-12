@@ -1,5 +1,5 @@
 ![python](https://img.shields.io/badge/language-python-blue.svg)[![PyPI](https://img.shields.io/pypi/pyversions/osascript.svg)](https://pypi.python.org/pypi/osascript)
-[![landscape.io](https://landscape.io/github/russianidiot/osascript.py/master/landscape.svg?style=flat)](https://landscape.io/github/russianidiot/osascript.py/master)
+[![landscape.io](https://landscape.io/github/russianidiot/osascript.py/master/landscape.svg?style=flat)](https://landscape.io/github/russianidiot/osascript.py/master)[![Code Climate](https://img.shields.io/codeclimate/github/russianidiot/osascript.py.svg)](https://codeclimate.com/github/russianidiot/osascript.py)
 [![Code Health](https://scrutinizer-ci.com/g/russianidiot/osascript.py/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/russianidiot/osascript.py)
 
 [![Build Status](https://travis-ci.org/russianidiot/osascript.py.svg?branch=master)](https://travis-ci.org/russianidiot/osascript.py)[![drone.io](https://drone.io/github.com/russianidiot/osascript.py/status.png)](https://drone.io/github.com/russianidiot/osascript.py)[![Wercker](https://img.shields.io/wercker/ci/russianidiot/osascript.py.svg)](https://app.wercker.com/#applications/None/)
@@ -28,7 +28,7 @@ from osascript import *
 
 [Examples/](https://github.com/russianidiot/osascript.py/tree/master/Examples)
 
-source code [{$source_name}](https://github.com/russianidiot/osascript.py/blob/master/py_modules/osascript.py)
+source code [py_modules/osascript.py](https://github.com/russianidiot/osascript.py/blob/master/py_modules/osascript.py)
 
 ### Links
 

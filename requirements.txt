@@ -1,9 +1,7 @@
 fullpath
 osx_only
-platform
 public
 rm
-setuptools
 subopen
 temp
 tolist

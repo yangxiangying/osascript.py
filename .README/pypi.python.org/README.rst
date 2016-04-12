@@ -6,6 +6,9 @@
 .. image:: https://img.shields.io/codacy/None.svg
    :target: https://www.codacy.com/app/russianidiot-github/osascript-py/dashboard
 
+.. image:: https://img.shields.io/codeclimate/github/russianidiot/osascript.py.svg
+   :target: https://codeclimate.com/github/russianidiot/osascript.py
+
 .. image:: https://landscape.io/github/russianidiot/osascript.py/master/landscape.svg?style=flat
    :target: https://landscape.io/github/russianidiot/osascript.py/master
    :alt: landscape.io

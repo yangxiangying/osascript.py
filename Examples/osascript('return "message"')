@@ -4,5 +4,5 @@ from osascript import *
 
 # Darwin/Linux/Windows,Java
 if system() != "Darwin":
-	returncode,stdout,stderr = osascript("return \"message\"")
+	returncode,stdout,stderr = osascript('return "message"')
 	print(stdout)

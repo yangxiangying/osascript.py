@@ -2,7 +2,7 @@
 [![landscape.io](https://landscape.io/github/russianidiot/osascript.py/master/landscape.svg?style=flat)](https://landscape.io/github/russianidiot/osascript.py/master)[![Code Climate](https://img.shields.io/codeclimate/github/russianidiot/osascript.py.svg)](https://codeclimate.com/github/russianidiot/osascript.py)
 [![Code Health](https://scrutinizer-ci.com/g/russianidiot/osascript.py/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/russianidiot/osascript.py)
 
-[![Build Status](https://travis-ci.org/russianidiot/osascript.py.svg?branch=master)](https://travis-ci.org/russianidiot/osascript.py)[![drone.io](https://drone.io/github.com/russianidiot/osascript.py/status.png)](https://drone.io/github.com/russianidiot/osascript.py)[![Wercker](https://img.shields.io/wercker/ci/russianidiot/osascript.py.svg)](https://app.wercker.com/#applications/None/)
+[![Build Status](https://travis-ci.org/russianidiot/osascript.py.svg?branch=master)](https://travis-ci.org/russianidiot/osascript.py)[![drone.io](https://drone.io/github.com/russianidiot/osascript.py/status.png)](https://drone.io/github.com/russianidiot/osascript.py)[![codeship](https://img.shields.io/codeship/a72de6d0-e32a-0133-038a-5a988fa7d930.svg)](https://codeship.com/projects/145917)[![Wercker](https://img.shields.io/wercker/ci/russianidiot/osascript.py.svg)](https://app.wercker.com/#applications/None/)
 
 [![PyPI](https://img.shields.io/pypi/v/osascript.svg)](https://pypi.python.org/pypi/osascript)
 [![PyPI](https://img.shields.io/pypi/dm/osascript.svg)](https://pypi.python.org/pypi/osascript)
@@ -14,7 +14,8 @@
 
 #### Install
 
-pip: `[sudo] pip install osascript`
+pip: 
+`[sudo] pip install osascript`
 
 #### Usage
 
@@ -28,7 +29,8 @@ from osascript import *
 
 [Examples/](https://github.com/russianidiot/osascript.py/tree/master/Examples)
 
-source code [py_modules/osascript.py](https://github.com/russianidiot/osascript.py/blob/master/py_modules/osascript.py)
+Sources:
+*	[py_modules/osascript.py](https://github.com/russianidiot/osascript.py/blob/master/py_modules/osascript.py)
 
 ### Links
 

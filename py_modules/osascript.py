@@ -5,7 +5,7 @@ from platform import system
 from subprocess import *
 from fullpath import *
 from osx_only import *
-from public import *
+from public import public
 from rm import *
 from subopen import *
 from temp import *

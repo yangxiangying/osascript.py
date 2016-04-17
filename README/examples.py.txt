@@ -1,0 +1,1 @@
+>>> returncode,stdout,stderr = osascript('display dialog "42"')

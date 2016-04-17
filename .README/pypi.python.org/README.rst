@@ -3,16 +3,13 @@
 .. image:: https://img.shields.io/pypi/pyversions/osascript.svg
    :target: https://pypi.python.org/pypi/osascript
 
-.. image:: https://img.shields.io/pypi/pyversions/osascript.svg
-   :target: https://pypi.python.org/pypi/osascript
-
- |codacy| |landscape| |codeclimate| |scrutinizer|
+|codacy| |landscape| |codeclimate| |scrutinizer|
 
 .. |scrutinizer| image:: https://scrutinizer-ci.com/g/russianidiot/osascript.py/badges/quality-score.png?b=master
    :target: https://scrutinizer-ci.com/g/russianidiot/osascript.py/master
    :alt: scrutinizer-ci.com
 
-.. |codacy| image:: https://img.shields.io/codacy/None.svg
+.. |codacy| image:: https://img.shields.io/codacy/3e30e0c2134544ddb7a70848b19f43de.svg
    :target: https://www.codacy.com/app/russianidiot-github/osascript-py/dashboard
    :alt: codacy.com
 
@@ -32,17 +29,20 @@ Install
 Usage
 `````
 
-**osascript(applescript, flags=None)** function
+.. code:: python
+	
+	>>> from osascript import osascript
+	
+	>>> returncode,stdout,stderr = osascript(code)
+	
 
-.. code-block:: python
+Example
+```````
 
-	from osascript import *
-
+.. code:: python
+	
 	>>> returncode,stdout,stderr = osascript('display dialog "42"')
-
-`Examples/`_
-
-.. _Examples/: https://github.com/russianidiot/osascript.py/tree/master/Examples
+	
 
 Sources:
 

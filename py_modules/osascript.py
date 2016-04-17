@@ -1,9 +1,8 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 from os.path import *
-from platform import system
 from subprocess import *
-from fullpath import *
+from fullpath import fullpath
 from osx_only import *
 from public import public
 from rm import *
@@ -36,17 +35,3 @@ def osascript(applescript, flags=None):
         return (returncode, stdout, stderr)
     finally:
         rm(temp)
-
-
-if __name__ == "__main__":
-    # Darwin/Linux/Windows,Java
-    if system() == "Darwin":
-        # test stdout
-        returncode, stdout, stderr = osascript('return "message"')
-        print(stdout)
-        # test stderr
-        returncode, stdout, stderr = osascript("log 1")  # log 2 stderr
-        print(stderr)
-        # test returncode
-        returncode, stdout, stderr = osascript("ERROR")
-        print(returncode, stderr)

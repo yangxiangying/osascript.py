@@ -1,0 +1,3 @@
+>>> from osascript import osascript
+
+>>> returncode,stdout,stderr = osascript(code)

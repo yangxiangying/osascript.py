@@ -4,6 +4,7 @@
 [![Code Health](https://scrutinizer-ci.com/g/russianidiot/osascript.py/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/russianidiot/osascript.py)
 
 [![Build Status](https://travis-ci.org/russianidiot/osascript.py.svg?branch=master)](https://travis-ci.org/russianidiot/osascript.py)[![drone.io](https://drone.io/github.com/russianidiot/osascript.py/status.png)](https://drone.io/github.com/russianidiot/osascript.py)[![Wercker](https://img.shields.io/wercker/ci/russianidiot/osascript.py.svg)](https://app.wercker.com/#applications/None/)
+[![codecov.io](https://codecov.io/github/russianidiot/osascript.py/coverage.svg?branch=master)](https://codecov.io/github/russianidiot/osascript.py?branch=master)
 
 [![PyPI](https://img.shields.io/pypi/v/osascript.svg)](https://pypi.python.org/pypi/osascript)
 [![PyPI](https://img.shields.io/pypi/dm/osascript.svg)](https://pypi.python.org/pypi/osascript)

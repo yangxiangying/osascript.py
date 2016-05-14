@@ -3,7 +3,7 @@
 [![codacy.com](https://img.shields.io/codacy/3e30e0c2134544ddb7a70848b19f43de.svg)](https://www.codacy.com/app/russianidiot-github/osascript-py/dashboard)[![landscape.io](https://landscape.io/github/russianidiot/osascript.py/master/landscape.svg?style=flat)](https://landscape.io/github/russianidiot/osascript.py/master)[![Code Climate](https://img.shields.io/codeclimate/github/russianidiot/osascript.py.svg)](https://codeclimate.com/github/russianidiot/osascript.py)
 [![Code Health](https://scrutinizer-ci.com/g/russianidiot/osascript.py/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/russianidiot/osascript.py)
 
-[![Build Status](https://travis-ci.org/russianidiot/osascript.py.svg?branch=master)](https://travis-ci.org/russianidiot/osascript.py)[![drone.io](https://drone.io/github.com/russianidiot/osascript.py/status.png)](https://drone.io/github.com/russianidiot/osascript.py)[![Wercker](https://img.shields.io/wercker/ci/russianidiot/osascript.py.svg)](https://app.wercker.com/#applications/None/)
+[![Build Status](https://travis-ci.org/russianidiot/osascript.py.svg?branch=master)](https://travis-ci.org/russianidiot/osascript.py)[![drone.io](https://drone.io/github.com/russianidiot/osascript.py/status.png)](https://drone.io/github.com/russianidiot/osascript.py)[![Wercker](https://img.shields.io/wercker/ci/russianidiot/osascript.py.svg)](https://app.wercker.com/#applications/570bf18c3f1a891374046873/)
 [![codecov.io](https://codecov.io/github/russianidiot/osascript.py/coverage.svg?branch=master)](https://codecov.io/github/russianidiot/osascript.py?branch=master)
 
 [![PyPI](https://img.shields.io/pypi/v/osascript.svg)](https://pypi.python.org/pypi/osascript)
@@ -11,7 +11,7 @@
 [![PyPI](https://img.shields.io/pypi/dd/osascript.svg)](https://pypi.python.org/pypi/osascript)
 
 <p align="center">
-	<b>osascript(applescript, flags=None) function - osascript (AppleScript) python implementation (OS X)</b>
+    <b>osascript(applescript, flags=None) function - osascript (AppleScript) python implementation (OS X)</b>
 </p>
 
 #### Install
@@ -34,6 +34,8 @@ pip:
 >>> returncode,stdout,stderr = osascript('display dialog "42"')
 
 ```
+
+[Examples/](https://github.com/russianidiot/osascript.py/tree/master/Examples)
 
 Sources:
 *	[py_modules/osascript.py](https://github.com/russianidiot/osascript.py/blob/master/py_modules/osascript.py)

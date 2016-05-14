@@ -44,6 +44,10 @@ Example
 	>>> returncode,stdout,stderr = osascript('display dialog "42"')
 	
 
+`Examples/`_
+
+.. _Examples/: https://github.com/russianidiot/osascript.py/tree/master/Examples
+
 Sources:
 
 *	`py_modules/osascript.py`_

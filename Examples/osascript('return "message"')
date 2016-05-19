@@ -1,8 +1,7 @@
 #!/usr/bin/env python
-from platform import system
-from osascript import *
+import sys
+from osascript import osascript
 
-# Darwin/Linux/Windows,Java
-if system() == "Darwin":
+if sys.platform=="darwin": # linux,win32,cygwin,darwin
 	returncode,stdout,stderr = osascript('return "message"')
 	print(stdout)

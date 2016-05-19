@@ -1,5 +1,5 @@
 fullpath
-osx_only
+osx
 public
 rm
 subopen

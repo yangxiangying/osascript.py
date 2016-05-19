@@ -3,16 +3,16 @@
 from os.path import *
 from subprocess import *
 from fullpath import fullpath
-from osx_only import *
+import osx
 from public import public
-from rm import *
-from subopen import *
-from temp import *
-from tolist import *
-from write import *
+from rm import rm
+from subopen import subopen
+from temp import temp
+from tolist import tolist
+from write import write
 
 
-@osx_only
+@osx.only
 @public
 def osascript(applescript, flags=None):
     """osascript applescript code or file

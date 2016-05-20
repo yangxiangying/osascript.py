@@ -3,7 +3,7 @@
 from os.path import *
 from subprocess import *
 from fullpath import fullpath
-import osx
+import only
 from public import public
 from rm import rm
 from subopen import subopen
@@ -12,7 +12,7 @@ from tolist import tolist
 from write import write
 
 
-@osx.only
+@only.osx
 @public
 def osascript(applescript, flags=None):
     """osascript applescript code or file

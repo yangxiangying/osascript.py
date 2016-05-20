@@ -7,7 +7,7 @@ import only
 from public import public
 from rm import rm
 from subopen import subopen
-from temp import temp
+from temp import tempfile
 from tolist import tolist
 from write import write
 

@@ -4,4 +4,4 @@ from osascript import *
 
 # Darwin/Linux/Windows,Java
 if system() == "Darwin":
-	assert osascript("return 1")[1].strip()=="1"
+    assert osascript("return 1")[1].strip() == "1"

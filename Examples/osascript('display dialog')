@@ -2,5 +2,5 @@
 import sys
 from osascript import osascript
 
-if sys.platform=="darwin": # linux,win32,cygwin,darwin
+if sys.platform == "darwin":  # linux,win32,cygwin,darwin
     osascript('display dialog')

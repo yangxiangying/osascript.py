@@ -4,4 +4,4 @@ from osascript import *
 
 # Darwin/Linux/Windows,Java
 if system() == "Darwin":
-	osascript('display dialog "42"')
+    osascript('display dialog "42"')

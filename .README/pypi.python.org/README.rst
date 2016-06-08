@@ -5,20 +5,20 @@
 
 |codacy| |landscape| |codeclimate| |scrutinizer|
 
-.. |scrutinizer| image:: https://scrutinizer-ci.com/g/russianidiot/osascript.py/badges/quality-score.png?b=master
-   :target: https://scrutinizer-ci.com/g/russianidiot/osascript.py/master
+.. |scrutinizer| image:: https://scrutinizer-ci.com/g/russianidiot/osascript.py/badges/build.png?b=master
+   :target: https://scrutinizer-ci.com/g/russianidiot/osascript.py/
    :alt: scrutinizer-ci.com
 
-.. |codacy| image:: https://img.shields.io/codacy/3e30e0c2134544ddb7a70848b19f43de.svg
+.. |codacy| image:: https://api.codacy.com/project/badge/Grade/3e30e0c2134544ddb7a70848b19f43de
    :target: https://www.codacy.com/app/russianidiot-github/osascript-py/dashboard
    :alt: codacy.com
 
-.. |codeclimate| image:: https://img.shields.io/codeclimate/github/russianidiot/osascript.py.svg
+.. |codeclimate| image:: https://codeclimate.com/github/russianidiot/osascript.py/badges/gpa.svg
    :target: https://codeclimate.com/github/russianidiot/osascript.py
    :alt: codeclimate.com
 
 .. |landscape| image:: https://landscape.io/github/russianidiot/osascript.py/master/landscape.svg?style=flat
-   :target: https://landscape.io/github/russianidiot/osascript.py/master
+   :target: https://landscape.io/github/russianidiot/osascript.py/master/landscape.svg?style=flat
    :alt: landscape.io
 
 Install

@@ -1,10 +1,27 @@
 ![python](https://img.shields.io/badge/language-python-blue.svg)[![PyPI](https://img.shields.io/pypi/pyversions/osascript.svg)](https://pypi.python.org/pypi/osascript)
 
-[![codacy.com](https://img.shields.io/codacy/3e30e0c2134544ddb7a70848b19f43de.svg)](https://www.codacy.com/app/russianidiot-github/osascript-py/dashboard)[![landscape.io](https://landscape.io/github/russianidiot/osascript.py/master/landscape.svg?style=flat)](https://landscape.io/github/russianidiot/osascript.py/master)[![Code Climate](https://img.shields.io/codeclimate/github/russianidiot/osascript.py.svg)](https://codeclimate.com/github/russianidiot/osascript.py)
-[![Code Health](https://scrutinizer-ci.com/g/russianidiot/osascript.py/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/russianidiot/osascript.py)
+[![codacy.com](https://api.codacy.com/project/badge/Grade/3e30e0c2134544ddb7a70848b19f43de)](https://www.codacy.com/app/russianidiot-github/osascript-py/dashboard)
+[![landscape.io](https://landscape.io/github/russianidiot/osascript.py/master/landscape.svg?style=flat)](https://landscape.io/github/russianidiot/osascript.py)
+[![codeclimate.com](https://codeclimate.com/github/russianidiot/osascript.py/badges/gpa.svg)](https://codeclimate.com/github/russianidiot/osascript.py)
+[![scrutinizer-ci.com](https://scrutinizer-ci.com/g/russianidiot/osascript.py/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/russianidiot/osascript.py/)
 
-[![Build Status](https://travis-ci.org/russianidiot/osascript.py.svg?branch=master)](https://travis-ci.org/russianidiot/osascript.py)[![drone.io](https://drone.io/github.com/russianidiot/osascript.py/status.png)](https://drone.io/github.com/russianidiot/osascript.py)[![Wercker](https://app.wercker.com/status/9b568382fe980d02e6b671e3e1a3c434/s/master)](https://app.wercker.com/#applications/570bf18c3f1a891374046873/)
 [![codecov.io](https://codecov.io/github/russianidiot/osascript.py/coverage.svg?branch=master)](https://codecov.io/github/russianidiot/osascript.py?branch=master)
+[![drone.io](https://drone.io/github.com/russianidiot/osascript.py/status.png)](https://drone.io/github.com/russianidiot/osascript.py)
+[![scrutinizer-ci.com](https://scrutinizer-ci.com/g/russianidiot/osascript.py/badges/build.png?b=master)](https://scrutinizer-ci.com/g/russianidiot/osascript.py/)
+[![semaphoreci.com](https://semaphoreci.com/api/v1/russianidiot/osascript-py/branches/master/shields_badge.svg)](https://semaphoreci.com/russianidiot/osascript-py)
+[![shippable.com](https://api.shippable.com/projects/57068cbb2a8192902e1bbbd1/badge?branch=master)](https://app.shippable.com/projects/57068cbb2a8192902e1bbbd1)
+[![travis-ci.org](https://travis-ci.org/russianidiot/osascript.py.svg)](https://travis-ci.org/russianidiot/osascript.py)
+[![wercker.com](https://app.wercker.com/status/9b568382fe980d02e6b671e3e1a3c434/s/master)](https://app.wercker.com/#applications/570bf18c3f1a891374046873)
+
+<h1 color="red">Integrations</h1>
+*	shippable.com:
+[open](https://app.shippable.com/projects/57068cbb2a8192902e1bbbd1)
+[add](https://app.shippable.com/subscriptions/57068cba2a8192902e1bbb7e?add=russianidiot/osascript.py)
+[badge](https://api.shippable.com/projects/57068cbb2a8192902e1bbbd1/badge?branch=master)
+*	semaphoreci.com:
+[open](https://semaphoreci.com/russianidiot/osascript-py)
+[add](https://semaphoreci.com/projects/new?repo_host=github&add=russianidiot/osascript.py)
+[badge](https://semaphoreci.com/api/v1/russianidiot/osascript-py/branches/master/shields_badge.svg)
 
 [![PyPI](https://img.shields.io/pypi/v/osascript.svg)](https://pypi.python.org/pypi/osascript)
 [![PyPI](https://img.shields.io/pypi/dm/osascript.svg)](https://pypi.python.org/pypi/osascript)

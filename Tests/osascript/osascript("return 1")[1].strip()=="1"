@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 from platform import system
-from osascript import *
+from osascript import osascript
 
 # Darwin/Linux/Windows,Java
 if system() == "Darwin":

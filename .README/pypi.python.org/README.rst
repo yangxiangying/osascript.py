@@ -5,7 +5,7 @@
 
 |codacy| |landscape| |codeclimate| |scrutinizer|
 
-.. |scrutinizer| image:: https://scrutinizer-ci.com/g/russianidiot/osascript.py/badges/build.png?b=master
+.. |scrutinizer| image:: https://scrutinizer-ci.com/g/russianidiot/osascript.py/badges/quality-score.png?b=master
    :target: https://scrutinizer-ci.com/g/russianidiot/osascript.py/
    :alt: scrutinizer-ci.com
 

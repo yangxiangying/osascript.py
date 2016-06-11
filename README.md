@@ -13,16 +13,6 @@
 [![travis-ci.org](https://travis-ci.org/russianidiot/osascript.py.svg)](https://travis-ci.org/russianidiot/osascript.py)
 [![wercker.com](https://app.wercker.com/status/9b568382fe980d02e6b671e3e1a3c434/s/master)](https://app.wercker.com/#applications/570bf18c3f1a891374046873)
 
-<h1 color="red">Integrations</h1>
-*	shippable.com:
-[open](https://app.shippable.com/projects/57068cbb2a8192902e1bbbd1)
-[add](https://app.shippable.com/subscriptions/57068cba2a8192902e1bbb7e?add=russianidiot/osascript.py)
-[badge](https://api.shippable.com/projects/57068cbb2a8192902e1bbbd1/badge?branch=master)
-*	semaphoreci.com:
-[open](https://semaphoreci.com/russianidiot/osascript-py)
-[add](https://semaphoreci.com/projects/new?repo_host=github&add=russianidiot/osascript.py)
-[badge](https://semaphoreci.com/api/v1/russianidiot/osascript-py/branches/master/shields_badge.svg)
-
 [![PyPI](https://img.shields.io/pypi/v/osascript.svg)](https://pypi.python.org/pypi/osascript)
 [![PyPI](https://img.shields.io/pypi/dm/osascript.svg)](https://pypi.python.org/pypi/osascript)
 [![PyPI](https://img.shields.io/pypi/dd/osascript.svg)](https://pypi.python.org/pypi/osascript)
